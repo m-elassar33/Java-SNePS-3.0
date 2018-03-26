@@ -4,7 +4,7 @@ import java.util.Set;
 
 import sneps.network.classes.setClasses.NodeSet;
 
-public class SIndex {
+public class SIndex extends RuleUseInfoSet{
 
 	public static final byte RUIS = 0, SINGLETONRUIS = 1, PTREE = 2;
 

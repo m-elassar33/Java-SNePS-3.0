@@ -27,6 +27,8 @@ public class PropositionNode extends Node {
 	protected ChannelSet incomingChannels;
 	protected ReportSet knownInstances;
 	protected ReportSet newInstances;
+	
+	
 
 	public PropositionNode() {
 		outgoingChannels = new ChannelSet();
